@@ -1,0 +1,30 @@
+.parallax-effect-glare-scale {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(89deg, #ff5edf 0%, #04c8de 100%);
+    color: white;
+    border: 0.1rem outset;
+    border-radius: 2rem;  
+    transform-style: preserve-3d;
+}
+
+.inner-element {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-size: 35px;
+      font-style: italic;
+      color: white;
+      transform: translateZ(60px);
+}
+
+img {
+    display: flex;
+    position: relative;
+}
+ 
